@@ -16,6 +16,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100vh;
         font-family: 'Outfit' ,sans-serif;
         background-color: var(--White);
     }
