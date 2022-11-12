@@ -20,6 +20,26 @@
         background-color: var(--White);
     }
 
+    img {
+        max-width: 90%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    h1{
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px 15px 10px 15px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        margin: 0 15px 0 15px;
+        color: var(--Grayish-blue)
+    }
+
     .container {
         display: flex;
         justify-content: center;
@@ -34,28 +54,20 @@
 
     .container-qr {
         background-color: var(--White);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         width: 280px;
-        height: 480px;
-        border-radius: 5px;
+        height: 450px;
+        border-radius: 20px;
     }
 
-    img {
-        max-width: 50%;
-        
-    }
-
-    h1{
-        font-weight: 700;
-        text-align: center;
-    }
+    
 
 @media(max-width: 375px) {
     body {
         background-color: var(--Light-gray);
         font-weight: 400;
+    }
+
+    .container{
+        height: 100vh;
     }
 }
