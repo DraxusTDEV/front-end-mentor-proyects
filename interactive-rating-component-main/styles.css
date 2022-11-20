@@ -173,7 +173,27 @@ button:hover {
 }
 
 
+@media (max-width: 375px){
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
 
+    button {
+        margin: 20px;
+    }
+
+    .numbers {
+        gap: 7px;
+        margin: 10px 0;
+
+    }
+
+    .numbers h4 {
+        width: 52px;
+        height: 52px;
+    }
+}
 
 
 
