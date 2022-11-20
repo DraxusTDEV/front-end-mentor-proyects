@@ -21,6 +21,12 @@
     margin: 0 auto;
 }
 
+.front-face{
+    display: none;
+}
+
+
+
 h1 {
     color: var(--White);
     margin-bottom: 20px;
@@ -36,7 +42,7 @@ h4 {
 p {
     color: var(--White);
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     font-weight: 400;
 }
 
@@ -44,7 +50,7 @@ body {
     background-color: var(--VeryDarkBlue);
     font-family: 'Overpass', sans-serif;
     max-width: 1440px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +68,7 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .numbers{
@@ -83,15 +89,24 @@ body {
     background-color: var(--DarkBlue);
 }
 
+
 .numbers h4:hover {
     cursor: pointer;
     color: var(--White);
     background-color: var(--Orange);
+    transition: .3s ease all;
 }
 
-a {
-    width: 100%;
+.numbers h4:active {
+    color: var(--White);
+    background-color: var(--LightGrey);
 }
+
+.numbers h4:focus-within {
+    color: var(--White);
+    background-color: var(--LightGrey);
+}
+
 
 button {
     border: none;
@@ -110,6 +125,7 @@ button:hover {
     color: var(--Orange);
     background-color: var(--White);
     cursor: pointer;
+    transition: .5s ease all;
 }
 
 .logo {
@@ -130,9 +146,31 @@ button:hover {
 }
 
 
+/*---------Back Face------------------------*/
 
+.back-face {
+    display: none;
+}
+.selected {
+    background-color: var(--DarkBlue);
+    color: var(--Orange);
+    padding: 7px 20px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
 
+.img-back {
+    padding: 10px 0 0 0;
+}
 
+.thanks {
+    width: 100%;
+    text-align: center;
+}
+
+.p-back {
+    text-align: center;
+}
 
 
 
