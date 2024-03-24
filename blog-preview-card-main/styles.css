@@ -4,23 +4,39 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: Figtree;
-  src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf"),
-    url("./assets/fonts/Figtree-VariableFont_wght.ttf"),
-    url("./assets/fonts/static/Figtree-ExtraBold.ttf"),
-    url("./assets/fonts/static/Figtree-SemiBold.ttf");
-}
+/*.figtree-unique {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}*/
 
 body {
   font-size: 20px;
-  font-weight: 900;
-  font-family: Figtree;
+  font-weight: 800;
+  font-family: "Figtree", sans-serif;
 }
 
 img {
   display: block;
   margin: 24px auto;
+}
+
+p {
+  margin: 12px 0;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#published {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 6px 0;
 }
 
 .container {
@@ -54,6 +70,7 @@ img {
   background-color: #f4d04e;
   border-radius: 4px;
   border: none;
-  font-family: Figtree;
+  font-family: "Figtree", sans-serif;
   font-weight: bold;
+  margin-bottom: 6px;
 }
