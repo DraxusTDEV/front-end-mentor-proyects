@@ -22,21 +22,23 @@ img {
   margin: 24px auto;
 }
 
-p {
-  margin: 12px 0;
-  font-weight: 300;
-  font-size: 15px;
-}
-
 #published {
   font-size: 14px;
   font-weight: 400;
+}
+#description {
+  margin: 12px 0 0 0;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #7f7f7f;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 h1 {
   font-size: 24px;
   font-weight: 800;
-  margin: 6px 0;
+  margin: 12px 0;
 }
 
 .container {
@@ -60,8 +62,7 @@ h1 {
 .content {
   width: 336px;
   height: 194px;
-  border: 1px solid black;
-  margin: 0 auto;
+  margin: 24px auto;
 }
 
 .content button {
@@ -72,5 +73,23 @@ h1 {
   border: none;
   font-family: "Figtree", sans-serif;
   font-weight: bold;
-  margin-bottom: 6px;
+  outline: none;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.avatar .avatar-img {
+  margin: 0;
+  width: 32px;
+  height: 32px;
+}
+
+#authorname {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 14px;
 }
